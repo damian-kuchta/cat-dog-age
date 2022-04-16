@@ -1,0 +1,92 @@
+.animal-age {
+  width: 50%;
+}
+
+.animal-age-wrap {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.animal-age__label {
+  font-size: 34px;
+}
+
+.animal-age__input {
+  padding: 10px 12px;
+  min-width: 30%;
+  font-size: 24px;
+  border: none;
+  border-radius: 28px;
+}
+
+.animal-age__input::placeholder {
+  font-size: 22px;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+.animal-age--dog {
+  display: flex;
+  flex-direction: column;
+}
+
+.animal-age__advice--dog {
+  width: 48%;
+}
+
+@media (max-width: 950px) {
+  .animal-age__label {
+    font-size: 28px;
+  }
+
+  .animal-age__input {
+    font-size: 20px;
+    padding: 8px 12px;
+  }
+
+  .animal-age__input::placeholder {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 775px) {
+  .animal-age__label {
+    font-size: 24px;
+  }
+
+  .animal-age__input {
+    font-size: 18px;
+  }
+
+  .animal-age__input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 710px) {
+  .animal-age-wrap {
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .animal-age__label {
+    font-size: 20px;
+  }
+
+  .animal-age__input {
+    margin-top: 7px;
+    font-size: 16px;
+  }
+
+  .animal-age__input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 345px) {
+  .animal-age__label,
+  .animal-age__advice {
+    font-size: 16px;
+  }
+}

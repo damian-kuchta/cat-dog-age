@@ -1,0 +1,79 @@
+.App {
+  margin: 0 auto;
+  padding: 0 100px;
+  min-height: 100vh;
+  max-width: 1400px;
+  position: relative;
+}
+
+.animal-choice-wrapper {
+  margin: 50px auto;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+}
+
+@media (max-width: 1060px) {
+  .animal-choice-wrapper {
+    max-width: 75%;
+  }
+}
+
+@media (max-width: 950px) {
+  .App {
+    padding: 0 80px;
+  }
+  .animal-choice-wrapper {
+    font-size: 35px;
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 835px) {
+  .animal-choice-wrapper {
+    max-width: 70%;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 710px) {
+  .animal-choice-wrapper {
+    max-width: 85%;
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 570px) {
+  .App {
+    padding: 0 50px;
+  }
+
+  .animal-choice-wrapper {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 485px) {
+  .App {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .App {
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 345px) {
+  .App {
+    min-height: 120vh;
+    padding: 0 30px;
+  }
+
+  .animal-choice-wrapper {
+    flex-direction: column;
+  }
+}

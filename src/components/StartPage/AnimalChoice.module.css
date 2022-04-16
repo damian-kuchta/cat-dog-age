@@ -1,0 +1,90 @@
+.info-wrap {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.animal-choice {
+  width: 270px;
+  height: 270px;
+  border: 10px solid #fff;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.animal-choice--cat {
+  background-image: url("../../assets/cat.jpg");
+  box-shadow: -25px 25px 16px 0 rgba(0, 0, 0, 0.507);
+}
+
+.animal-choice--dog {
+  background-image: url("../../assets/dog.jpg");
+  box-shadow: 25px 25px 16px 0 rgba(0, 0, 0, 0.507);
+}
+
+.animal-choice:hover {
+  transform: scale(1.05);
+  border: 10px solid rgb(65, 79, 122);
+}
+
+.animal-info {
+  padding: 30px;
+  text-align: center;
+}
+
+@media (max-width: 1275px) {
+  .animal-choice {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 835px) {
+  .animal-choice {
+    width: 170px;
+    height: 170px;
+    border: 6px solid #fff;
+  }
+
+  .animal-choice :hover {
+    border: 6px solid rgb(60, 100, 44);
+  }
+}
+
+@media (max-width: 710px) {
+  .animal-choice {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 570px) {
+  .animal-choice {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 380px) {
+  .animal-choice {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (max-width: 345px) {
+  .animal-choice {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 30px;
+    order: 2;
+  }
+
+  .animal-info {
+    padding: 10px 0;
+  }
+}

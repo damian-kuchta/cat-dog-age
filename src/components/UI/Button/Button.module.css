@@ -1,0 +1,44 @@
+.btn {
+  display: block;
+  font-size: 22px;
+  font-family: "Ubuntu Condensed", sans-serif;
+  padding: 12px 25px;
+  margin-top: 15px;
+  border: none;
+  color: #fff;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.349);
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #232526 100%
+  );
+  transition: 0.5s;
+}
+
+@media (max-width: 710px) {
+  .btn {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 485px) {
+  .btn {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 380px) {
+  .btn {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 345px) {
+  .btn {
+    padding: 10px 15px;
+  }
+}

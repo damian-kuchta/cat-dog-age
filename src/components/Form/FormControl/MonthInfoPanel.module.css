@@ -1,0 +1,32 @@
+.month-info-panel {
+    flex-basis: 40%;
+}
+
+.month-info-panel__advice {
+    font-size: 18px;
+}
+
+.btn--month:hover, 
+.btn--month.active {
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);
+}
+
+@media (max-width: 775px) {
+    .month-info-panel {
+      flex-basis: 50%;
+    }
+  }
+
+  @media (max-width: 485px) {
+
+    .month-info-panel__advice {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 450px) {
+
+    .month-info-panel {
+      flex-basis: 65%;
+    }
+  }

@@ -1,0 +1,21 @@
+.animal-age {
+    width: 50%;
+}
+
+@media (max-width: 1275px) {
+    .animal-age {
+      width: 65%;
+    }
+  }
+
+  @media (max-width: 1060px) {
+    .animal-age {
+      width: 75%;
+    }
+  }
+
+  @media (max-width: 710px) {
+    .animal-age {
+        width: 100%;
+      }
+  }
