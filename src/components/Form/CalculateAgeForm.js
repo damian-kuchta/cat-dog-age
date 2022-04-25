@@ -40,7 +40,7 @@ const CalculateAgeForm = (props) => {
         inputType="age"
         type="number"
         min="1"
-        max={ctx.form.monthIsActive? 12 : null}
+  
         value={ctx.form.animalAge}
         onChange={ctx.form.setAge}
       />
