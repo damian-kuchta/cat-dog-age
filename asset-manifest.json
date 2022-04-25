@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cat-dog-age/static/css/main.3de64ecc.css",
-    "main.js": "/cat-dog-age/static/js/main.f06dbd99.js",
+    "main.css": "/cat-dog-age/static/css/main.304f6d2f.css",
+    "main.js": "/cat-dog-age/static/js/main.7e530a78.js",
     "static/media/site-bg.png": "/cat-dog-age/static/media/site-bg.f9948e8ee208862b6e69.png",
     "static/media/cat.jpg": "/cat-dog-age/static/media/cat.c3bf7c1472e36a813902.jpg",
     "static/media/dog.jpg": "/cat-dog-age/static/media/dog.bb0f7dbf6c38568f5ee9.jpg",
     "index.html": "/cat-dog-age/index.html",
-    "main.3de64ecc.css.map": "/cat-dog-age/static/css/main.3de64ecc.css.map",
-    "main.f06dbd99.js.map": "/cat-dog-age/static/js/main.f06dbd99.js.map"
+    "main.304f6d2f.css.map": "/cat-dog-age/static/css/main.304f6d2f.css.map",
+    "main.7e530a78.js.map": "/cat-dog-age/static/js/main.7e530a78.js.map"
   },
   "entrypoints": [
-    "static/css/main.3de64ecc.css",
-    "static/js/main.f06dbd99.js"
+    "static/css/main.304f6d2f.css",
+    "static/js/main.7e530a78.js"
   ]
 }
