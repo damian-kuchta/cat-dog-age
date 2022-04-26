@@ -6,7 +6,6 @@ import classes from "./MonthInfoPanel.module.css";
 
 const MonthInfoPanel = (props) => {
   const ctx = useContext(AppContext);
-  console.log(ctx)
 
   let btnStyles = !ctx.form.monthIsActive
     ? classes["btn--month"]

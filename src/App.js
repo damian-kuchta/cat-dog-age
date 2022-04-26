@@ -30,7 +30,7 @@ function App() {
         )}
       </main>
       {ctx.form.formIsSubmitted && ctx.animalIsChosen && <Result />}
-      <Footer />
+      {!ctx.form.inputIsFocused && <Footer />}
     </div>
   );
 }

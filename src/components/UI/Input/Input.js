@@ -11,6 +11,8 @@ const Input = (props) => {
       </label>
       <input
         onChange={props.onChange}
+        onFocus={props.onFocus}
+        onBlur={props.onBlur}
         required
         placeholder={props.placeholder}
         type={props.type}
