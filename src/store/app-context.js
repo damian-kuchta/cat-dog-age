@@ -31,7 +31,6 @@ export const AppContextProvider = (props) => {
   const [animalIsChosen, setAnimalIsChosen] = useState(false);
   const [animalType, setAnimalType] = useState("");
   const [result, setResult] = useState(0);
-  const [inputIsFocused, setInputFocus] = useState(false);
 
   const chooseAnimalHandler = (e, type) => {
     setAnimalType(e.target.dataset.animal);
@@ -54,14 +53,6 @@ export const AppContextProvider = (props) => {
   const toggleMonthActiveHandler = (e) => {
     setMonthActive((monthActive) => !monthActive);
   };
-
-  const inputFocusHandler = (e) => {
-    setInputFocus(true);
-  }
-
-  const inputBlurHandler = (e) => {
-    setInputFocus(false);
-  }
 
   const calculateResultHandler = (e, type) => {
     e.preventDefault();
@@ -95,14 +86,11 @@ export const AppContextProvider = (props) => {
           animalAge: animalAge,
           monthIsActive: monthIsActive,
           formIsSubmitted: formIsSubmitted,
-          inputIsFocused: inputIsFocused,
-
+          
           setAge: setAgeHandler,
           setName: setNameHandler,
           toggleMonthActive: toggleMonthActiveHandler,
           setFormIsSubmitted: setFormIsSubmitted,
-          setInputFocus: inputFocusHandler,
-          setInputBlur: inputBlurHandler,
         },
 
         result: result,

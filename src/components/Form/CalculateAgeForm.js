@@ -21,6 +21,8 @@ const CalculateAgeForm = (props) => {
     <form
       onSubmit={(e) => {
         ctx.calculateResult(e, props.animalType);
+        console.log('dsadsadassa')
+        console.log(ctx)
       }}
       className={classes["animal-age"]}
     >
@@ -32,8 +34,6 @@ const CalculateAgeForm = (props) => {
         type="text"
         value={ctx.form.animalName}
         onChange={ctx.form.setName}
-        onFocus={ctx.form.setInputFocus}
-        onBlur={ctx.form.setInputBlur}
       />
       <Input
         animalType={ctx.form.animalType}
@@ -44,8 +44,6 @@ const CalculateAgeForm = (props) => {
         min="1"
         value={ctx.form.animalAge}
         onChange={ctx.form.setAge}
-        onFocus={ctx.form.setInputFocus}
-        onBlur={ctx.form.setInputBlur}
       />
       <Controls />
     </form>
