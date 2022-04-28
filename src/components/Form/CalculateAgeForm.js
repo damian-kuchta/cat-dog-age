@@ -1,8 +1,6 @@
+import classes from "./CalculateAgeForm.module.css";
 import { useContext } from "react";
 import AppContext from "../../store/app-context";
-
-import classes from "./CalculateAgeForm.module.css";
-
 import Input from '../UI/Input/Input'
 import Controls from "../Form/FormControl/Controls";
 
@@ -21,8 +19,6 @@ const CalculateAgeForm = (props) => {
     <form
       onSubmit={(e) => {
         ctx.calculateResult(e, props.animalType);
-        console.log('dsadsadassa')
-        console.log(ctx)
       }}
       className={classes["animal-age"]}
     >
@@ -42,6 +38,7 @@ const CalculateAgeForm = (props) => {
         inputType="age"
         type="number"
         min="1"
+        max={ctx.form.monthIsActive ? '12' : '99'}
         value={ctx.form.animalAge}
         onChange={ctx.form.setAge}
       />

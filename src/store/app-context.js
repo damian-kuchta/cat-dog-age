@@ -41,12 +41,19 @@ export const AppContextProvider = (props) => {
   const goToStartPageHandler = () => {
     setAnimalIsChosen(false);
     setFormIsSubmitted(false);
+    setMonthActive(false);
   };
+
   const setNameHandler = (e) => {
+    if(e.target.value.trim().length === 0) {
+      e.target.value = '';
+      return;
+    }
     setAnimalName(e.target.value);
   };
 
   const setAgeHandler = (e) => {
+    
     setAnimalAge(e.target.value);
   };
 
@@ -86,7 +93,7 @@ export const AppContextProvider = (props) => {
           animalAge: animalAge,
           monthIsActive: monthIsActive,
           formIsSubmitted: formIsSubmitted,
-          
+
           setAge: setAgeHandler,
           setName: setNameHandler,
           toggleMonthActive: toggleMonthActiveHandler,
