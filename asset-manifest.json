@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cat-dog-age/static/css/main.67024732.css",
+    "main.css": "/cat-dog-age/static/css/main.b29b0b8e.css",
     "main.js": "/cat-dog-age/static/js/main.5b2c13df.js",
     "static/media/site-bg.png": "/cat-dog-age/static/media/site-bg.1286b7c34b12bcf89a6c.png",
     "static/media/cat.jpg": "/cat-dog-age/static/media/cat.c3bf7c1472e36a813902.jpg",
     "static/media/dog.jpg": "/cat-dog-age/static/media/dog.bb0f7dbf6c38568f5ee9.jpg",
     "index.html": "/cat-dog-age/index.html",
-    "main.67024732.css.map": "/cat-dog-age/static/css/main.67024732.css.map",
+    "main.b29b0b8e.css.map": "/cat-dog-age/static/css/main.b29b0b8e.css.map",
     "main.5b2c13df.js.map": "/cat-dog-age/static/js/main.5b2c13df.js.map"
   },
   "entrypoints": [
-    "static/css/main.67024732.css",
+    "static/css/main.b29b0b8e.css",
     "static/js/main.5b2c13df.js"
   ]
 }
