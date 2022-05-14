@@ -43,6 +43,9 @@
 }
 
 @media (max-width: 570px) {
+  .header {
+    padding: 20px 0;
+  }
   .header__info {
     font-size: 21px;
   }
