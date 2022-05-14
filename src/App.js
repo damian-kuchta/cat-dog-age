@@ -1,5 +1,5 @@
 import "./App.css";
-import calculateWindowHeight from "./utils/calculateWindowHeight";
+import getWindowHeight from "./utils/getWindowHeight";
 import { useState, useEffect, useContext } from "react";
 import AppContext from "./store/app-context";
 import Header from "./components/Layout/Header/Header";
@@ -13,9 +13,9 @@ function App() {
   const ctx = useContext(AppContext);
 
   useEffect(()=> {
-    setAppHeight(calculateWindowHeight());
+    setAppHeight(getWindowHeight());
     window.addEventListener("resize", () => {
-      setAppHeight(calculateWindowHeight());
+      setAppHeight(getWindowHeight());
     }, []);
   })
 
